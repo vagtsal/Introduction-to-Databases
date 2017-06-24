@@ -1,3 +1,5 @@
-# "Introduction to Databases" lab exercise
+### "Introduction to Databases" lab exercise
 
-Simple exercise about a store procedure in mysql and java
+Simple exercise about a stored procedure in mysql and java
+
+__*.pdf__ : exercise instruction (exercise 3e, in greek)
