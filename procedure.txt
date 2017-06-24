@@ -1,0 +1,16 @@
+TSALESIS EVANGELOS
+AM: 1779
+
+
+delimiter //
+create procedure reviews_stats(
+ in name varchar(20),
+ out reviews_no int,
+ out avg_stars float)
+begin
+ select count(*), avg(stars) 
+ from review, business 
+ where review.bid = business.bid and business.name = name
+ into reviews_no, avg_stars;
+end //
+delimiter ;
